@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T04:32:29.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" version="14.4.3" etag="cY_3VqHJVRQk-a61MhcL" type="github"><diagram id="o6bZFHskU2q92ugYpy2t">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-25T20:36:26.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="R1DnUXGZziH1-oHXwS_l" version="14.4.3" type="github">
+  <diagram id="o6bZFHskU2q92ugYpy2t" name="Page-1">
+    <mxGraphModel dx="981" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OTyOTxPSOuErKiOQReEH-1" value="anElevator&lt;br&gt;:Elevator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-2" value="weightGood()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="99.99999999999977" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="225" y="100" />
+              <mxPoint x="225" y="150" />
+            </Array>
+            <mxPoint x="200.0999999999999" y="149.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-3" value="false" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="159.99999999999977" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="225" y="160" />
+              <mxPoint x="225" y="210" />
+            </Array>
+            <mxPoint x="200.0999999999999" y="209.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-4" value="audio&lt;br&gt;:AudioSystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-6" value="say(overloadMessage)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-7" value="display:&lt;br&gt;DisplaySystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-9" value="display(overloadMessage)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-11" value="overwieghtProtocol()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="219.99999999999977" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="225" y="220" />
+              <mxPoint x="225" y="270" />
+            </Array>
+            <mxPoint x="200.0999999999999" y="269.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OTyOTxPSOuErKiOQReEH-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="310" as="sourcePoint" />
+            <mxPoint x="390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTyOTxPSOuErKiOQReEH-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="OTyOTxPSOuErKiOQReEH-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="340.0000000000001" as="sourcePoint" />
+            <mxPoint x="390" y="339.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
