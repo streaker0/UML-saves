@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T20:07:13.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="7K9ggEPLG0sb9w1pahN3" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T20:36:18.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="H7-u5xtYfNuPUWrRD6rl" version="14.4.3" type="github">
   <diagram id="d66YW8ot9BIjzewIdXrk" name="Page-1">
-    <mxGraphModel dx="981" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,16 +160,6 @@
         <mxCell id="JcezqDG1ztjZta3_3E15-59" value="[else]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="200" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JcezqDG1ztjZta3_3E15-60" value="fireProtocol()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1" source="JcezqDG1ztjZta3_3E15-5" target="JcezqDG1ztjZta3_3E15-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="545" y="330" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="570" y="360" />
-              <mxPoint x="570" y="400" />
-            </Array>
-            <mxPoint x="545" y="349.73" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="JcezqDG1ztjZta3_3E15-63" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1" target="JcezqDG1ztjZta3_3E15-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1100" y="600" as="sourcePoint" />
@@ -236,11 +226,21 @@
         <mxCell id="JcezqDG1ztjZta3_3E15-78" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="JcezqDG1ztjZta3_3E15-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="950" y="340" as="sourcePoint" />
-            <mxPoint x="570" y="340" as="targetPoint" />
+            <mxPoint x="560" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JcezqDG1ztjZta3_3E15-79" value="Fire(safeFloor)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="340" width="90" height="20" as="geometry" />
+          <mxGeometry x="705" y="340" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JcezqDG1ztjZta3_3E15-80" value="fireProtocol()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="565" y="350" />
+              <mxPoint x="565" y="400" />
+            </Array>
+            <mxPoint x="540.0999999999999" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
